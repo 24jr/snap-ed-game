@@ -173,6 +173,14 @@
 </script>
 
 <div class="container" transition:fade={{ duration: 4000 }}>
+  <div
+    class="containerBG"
+    style=" background-image: linear-gradient(
+    rgba(240, 246, 237, 0.7),
+    rgba(240, 246, 237, 0.9)
+  ),
+  url('quiz/{currentQuestion?.id}.png');"
+  />
   <img
     class="questionImage"
     src="quiz/{currentQuestion?.id}.png"
@@ -238,18 +246,12 @@
     border-radius: 30px;
     overflow: hidden;
   }
-  .container::before {
-    content: "";
+  .containerBG {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.9)
-      ),
-      url("quiz/1.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
