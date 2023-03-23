@@ -303,7 +303,7 @@
   }
   .messageContainer p {
     color: #412b0fdb;
-    font-size: 30px;
+    font-size: 24px;
     max-width: 80%;
     line-height: 1.5;
   }
@@ -311,7 +311,7 @@
     background-color: #e4b7ac;
   }
   .finishedContainer h3 {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-weight: 400;
@@ -319,7 +319,7 @@
   .finishedContainer p {
     color: #412b0fab;
     line-height: 1.3;
-    font-size: 24px;
+    font-size: 20px;
     margin: 2rem 0;
   }
   .emoji {
