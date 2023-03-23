@@ -236,7 +236,7 @@
   }
   .container {
     position: relative;
-    max-width: 450px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -262,12 +262,12 @@
     border-radius: 15px;
   }
   .question {
-    min-height: 80px;
+    min-height: 70px;
   }
   h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: clamp(1.1rem, 4vw, 1.5rem);
+    font-size: clamp(1rem, 4vw, 1.4rem);
     color: #412b0f;
   }
   .buttonsContainer {
@@ -276,8 +276,8 @@
     gap: 1rem;
   }
   .optionButton {
-    font-size: clamp(0.9rem, 4vw, 1.2rem);
-    padding: 0.7rem 1rem;
+    font-size: clamp(0.8rem, 4vw, 1.1rem);
+    padding: 0.5rem 1rem;
     background-color: #4caf50;
     color: #ffffff;
     border: none;
