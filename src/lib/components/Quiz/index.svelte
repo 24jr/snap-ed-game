@@ -151,7 +151,7 @@
     }
     if (currentQuizOrderIndex >= amountOfQuestionsToShow - 1) {
       const { emoji, text } = getMessageForScore(
-        currentQuizOrderIndex / amountOfQuestionsToShow
+        correctAmount / amountOfQuestionsToShow
       );
       finishedMessage = text;
       finishedEmoji = emoji;
